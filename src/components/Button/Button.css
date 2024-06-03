@@ -3,10 +3,11 @@
     cursor: pointer;
     border: 1px solid orange;
     transform:  translateX(-5%) translateY(15%);
-    color: #c98f8f;
+    color: #fff;
     transition-duration: 0.5s;
     transition-property: transform;
     transition-timing-function: ease-in-out;
+    background-color: transparent;
 }
 .button-bg{
     display: inline-block;

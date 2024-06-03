@@ -1,0 +1,21 @@
+.project-wrapper {}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 50%;
+
+    background-image: url(https://di.uz/image/projects/RT7817HgTs.webp);
+}
+
+.project-card h5{
+    display: none;
+
+}
+.project-card h5:hover{
+    display: block;
+
+}

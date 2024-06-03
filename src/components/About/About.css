@@ -1,0 +1,97 @@
+.about-wrapper {
+    display: flex;
+}
+
+.visibility {
+    visibility: hidden;
+
+}
+
+.about-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.about-left span:before {
+    position: absolute;
+    content: '';
+    width: 2.25rem;
+    height: .25rem;
+    background-color: #FAB448;
+    top: 6%;
+
+    transform: translateX(-100%);
+
+}
+
+.about-left h4 {
+    padding-left: 10px;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.about-left h2 {
+    font-size: 58px;
+    text-align: center;
+}
+
+.about-left p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+
+.about-right {
+    padding-top: 200px;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+.about-card {
+    padding: 25px 100px 50px 25px;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    
+}
+
+.about-card:hover {
+    background-image: url(https://di.uz/img/bg/about-pic.jpg);
+   
+}
+.about-card:hover h2{
+   color: #FAB448;
+   
+}
+.about-card:hover h5{
+    color: #fff;
+   
+}
+
+.about-card__bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FAB448;
+
+    border: 1px solid grey;
+
+    font-weight: 400;
+
+}
+
+.about-card h2 {
+
+    font-size: 74px;
+}
