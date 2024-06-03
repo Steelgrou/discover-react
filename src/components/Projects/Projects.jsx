@@ -1,7 +1,11 @@
 import React from 'react'
-import "./Project.css"
+import "./Projects.css"
+import Button from '../Button/Button'
+
 
 export default function Projects() {
+
+
   return (
     <section>
       <div className="container">
@@ -12,21 +16,26 @@ export default function Projects() {
           <div className="project-cards">
             <div className="project-card">
               <p>Magic City</p>
-              <h5>Это масштабный социально-значимый проект. Культурно-развлекательный кластер в Ташкенте является одной из новых достопримечательностей.</h5>
             </div>
             <div className="project-card">
               <p>Magic City</p>
-              <h5>Это масштабный социально-значимый проект. Культурно-развлекательный кластер в Ташкенте является одной из новых достопримечательностей.</h5>
             </div>
             <div className="project-card">
               <p>Magic City</p>
-              <h5>Это масштабный социально-значимый проект. Культурно-развлекательный кластер в Ташкенте является одной из новых достопримечательностей.</h5>
             </div>
             <div className="project-card">
               <p>Magic City</p>
-              <h5>Это масштабный социально-значимый проект. Культурно-развлекательный кластер в Ташкенте является одной из новых достопримечательностей.</h5>
+            </div>
+            <div className="project-card">
+              <p>Magic City</p>
+            </div>
+            <div className="project-card">
+              <p>Magic City</p>
             </div>
           </div>
+        </div>
+        <div className="project-btn">
+          <Button variant="third">Все проекты</Button>
         </div>
 
       </div>

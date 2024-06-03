@@ -1,11 +1,12 @@
 import React from 'react'
-import './Button.css'
+import styles from './Button.module.css'
 
-export default function Button({ children }) {
+export default function Button({ children, variant }) {
+    const className = styles[variant + 'Button']
     return (
         <div>
-            <div className="button-bg">
-                <button className='button' >{children}</button>
+            <div className={styles.buttonBg}>
+                <button className={className} >{children}</button>
             </div>
         </div>
     )

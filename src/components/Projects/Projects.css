@@ -1,21 +1,74 @@
-.project-wrapper {}
+.project-wrapper {
+    position: relative;
+    padding-top: 50px;
+}
+
+
+.project-wrapper h2 {
+    font-size: 48px;
+    padding-left: 10px;
+
+}
+
+.project-wrapper h4 {
+    padding-left: 50px;
+    font-size: 58px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+
+
+
+.project-wrapper span:before {
+    position: absolute;
+    content: '';
+    width: 2.25rem;
+    height: .25rem;
+    background-color: #FAB448;
+    top: 5%;
+
+    transform: translateX(-100%);
+}
+
 
 .project-cards {
     display: flex;
     flex-wrap: wrap;
+    gap:20px;
+    padding-bottom: 100px;
+    
 }
-
+.project-card p{
+    color: #fff;
+    font-size: 48px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
 .project-card {
-    width: 50%;
+    display: flex;
+    
+    align-items: flex-end;
+    
+    width: 49%;
 
     background-image: url(https://di.uz/image/projects/RT7817HgTs.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
 }
 
 .project-card h5{
-    display: none;
+    /* display: none; */
 
 }
 .project-card h5:hover{
     display: block;
+    color: #fff;
 
+}
+
+.project-btn {
+    text-align: center;
 }

@@ -98,8 +98,8 @@ export default function Header() {
                         <h1> DISCOVER INVEST</h1>
                         <h5>Совершенство во всём</h5>
                         <div className="entrance-btn">
-                            <Button>Проекты</Button>
-                            <Button>Контакты</Button>
+                            <Button variant="first" >Проекты</Button>
+                            <Button variant="second">Контакты</Button>
                         </div>
                     </div>
                 </div>
