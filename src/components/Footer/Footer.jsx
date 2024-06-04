@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import Button from '../Button/Button'
+import axios from 'axios'
 export default function Footer() {
 
   const sendMessage = (event) => {
@@ -98,15 +99,15 @@ export default function Footer() {
                   <label htmlFor="">Имя</label>
                   <input id='name' type="text" placeholder='Как вас зовут?' required />
                 </div>
-                <button type='submit'>55</button>
-                <Button>Обратная связь</Button>
+             
+                <Button variant="footerForm">Обратная связь</Button>
 
               </form>
 
             </div>
             <div className="footer-right">
               <div className="footer-location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.225309962672!2d69.28059271021576!3d41.311012038801955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2931f41f23%3A0x81095e06b654b845!2z0KHQutCy0LXRgCDQkNC80LjRgNCwINCi0LXQvNGD0YDQsA!5e0!3m2!1sru!2s!4v1717406497493!5m2!1sru!2s" width="600" height="550" ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.225309962672!2d69.28059271021576!3d41.311012038801955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2931f41f23%3A0x81095e06b654b845!2z0KHQutCy0LXRgCDQkNC80LjRgNCwINCi0LXQvNGD0YDQsA!5e0!3m2!1sru!2s!4v1717406497493!5m2!1sru!2s" width="700" height="650" ></iframe>
               </div>
             </div>
           </div>
