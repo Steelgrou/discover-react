@@ -1,7 +1,34 @@
 import React from 'react'
 import "./Footer.css"
-
+import Button from '../Button/Button'
 export default function Footer() {
+
+  const sendMessage = (event) => {
+    event.preventDefault();
+    const token = "6807646236:AAGeUZUjG8k_owEhXgSmLi_yZDMzbLXw4cQ";
+    const chatID = 806346535;
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
+    const name = document.getElementById("name").value;
+    const number = document.getElementById("number").value;
+
+
+
+    const messageContent = `Phone number: ${number}\nName: ${name}`
+    axios({
+      url: url,
+      method: 'POST',
+      data: {
+        "chat_id": chatID,
+        "text": messageContent,
+
+      }
+    }).then((res) => {
+      document.getElementById("footerForm").reset();
+      alert("Успешно отправлено")
+    }).catch((error) => {
+      console.log("Что то пошло не так!");
+    })
+  }
   return (
     <section>
 
@@ -11,7 +38,7 @@ export default function Footer() {
           <div className="footer-up__wrapper">
             <div className="footer-up__left">
               <div className="footer-contact">
-                <span></span>
+                <span className='footer-contact__before'></span>
                 <span className="footer-title">Контакты</span>
               </div>
               <div className="footer-info">
@@ -59,19 +86,32 @@ export default function Footer() {
                   <path d="M12.2764 23.3439L12.6182 18.1807L21.9926 9.73395C22.4076 9.35555 21.9071 9.17246 21.3578 9.50203L9.78633 16.8136L4.78177 15.2268C3.70763 14.9216 3.69542 14.177 5.0259 13.6399L24.5193 6.1209C25.4103 5.7181 26.2647 6.34061 25.923 7.70771L22.6029 23.3439C22.371 24.4547 21.6996 24.7232 20.7719 24.2105L15.7186 20.4754L13.2895 22.8312C13.0088 23.112 12.7769 23.3439 12.2764 23.3439Z" fill="#262524"></path>
                 </svg>
               </div>
-              <div className="footer-form"></div>
+
+              <form id="footerForm" onSubmit={sendMessage}>
+
+                <div className="form-item">
+                  <label htmlFor="">Номер телефона</label>
+                  <input id='number' type="text" placeholder='+998' required />
+                </div>
+
+                <div className="form-item">
+                  <label htmlFor="">Имя</label>
+                  <input id='name' type="text" placeholder='Как вас зовут?' required />
+                </div>
+                <button type='submit'>55</button>
+                <Button>Обратная связь</Button>
+
+              </form>
+
             </div>
             <div className="footer-right">
               <div className="footer-location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.225309962672!2d69.28059271021576!3d41.311012038801955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2931f41f23%3A0x81095e06b654b845!2z0KHQutCy0LXRgCDQkNC80LjRgNCwINCi0LXQvNGD0YDQsA!5e0!3m2!1sru!2s!4v1717406497493!5m2!1sru!2s" width="600" height="450" ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.225309962672!2d69.28059271021576!3d41.311012038801955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2931f41f23%3A0x81095e06b654b845!2z0KHQutCy0LXRgCDQkNC80LjRgNCwINCi0LXQvNGD0YDQsA!5e0!3m2!1sru!2s!4v1717406497493!5m2!1sru!2s" width="600" height="550" ></iframe>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
-
 
 
       <div className="footer-down">

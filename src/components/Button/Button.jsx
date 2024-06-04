@@ -6,7 +6,7 @@ export default function Button({ children, variant }) {
     return (
         <div>
             <div className={styles.buttonBg}>
-                <button className={className} >{children}</button>
+                <button type='submit' className={className} >{children}</button>
             </div>
         </div>
     )

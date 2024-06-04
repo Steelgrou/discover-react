@@ -1,6 +1,94 @@
-.footer-up__wrapper{
-    display: flex;
+.footer-up{
+    
+
 }
+
+
+.footer-up__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 0;
+    
+}
+
+.footer-up__left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url(	https://di.uz/img/bg/bg-footer.png);
+    
+    background-repeat: no-repeat;
+
+}
+
+.footer-contact {
+    position: relative;
+}
+
+.footer-contact .footer-title {
+    font-size: 58px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.footer-contact__before {
+    position: absolute;
+
+    content: '';
+    width: 2.25rem;
+    height: .25rem;
+    background-color: #FAB448;
+    top: 50%;
+    left: 0;
+    transform: translateX(-100%);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer-adress {
+    display: flex;
+    gap: 5px;
+
+}
+
+.footer-adress h5 {
+    max-width: 150px;
+
+}
+
+.footer-adress__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-phone {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-phone__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-timework {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-timework__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
 
 
 
