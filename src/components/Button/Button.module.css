@@ -1,10 +1,10 @@
 .firstButton:hover,
-.secondButton:hover {
+.secondButton:hover{
     transform: translateX(0%) translateY(0%);
 
 }
 
-.thirdButton:hover {
+.thirdButton:hover, .aboutpageEntranceButton:hover  {
     transform: translateX(0%) translateY(0%);
     background-color: orange;
     color: #fff;
@@ -62,4 +62,19 @@
     color: #fff;
     cursor: pointer;
     border: none;
+}
+
+.aboutpageEntranceButton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 60px;
+    cursor: pointer;
+    border: 1px solid orange;
+    transform: translateX(-5%) translateY(15%);
+    color: #fff;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    background-color: orange;
 }

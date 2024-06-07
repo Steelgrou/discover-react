@@ -1,0 +1,45 @@
+.entrance-section__aboutpage {
+    position: relative;
+    background-image: url(https://di.uz/img/bg/bg-main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.entrance-wrapper__aboutpage {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 200px 0;
+   
+}
+
+.entrance-overlay__aboutpage {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+
+}
+
+.entrance-wrapper__aboutpage h1 {
+    font-size: 100px;
+
+    color: #fff;
+}
+
+.entrance-wrapper__aboutpage h5 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    max-width: 50%;
+}
+
+.entrance-btn__aboutpage {
+    display: flex;
+    gap: 30px;
+
+
+}

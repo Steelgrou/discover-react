@@ -1,0 +1,59 @@
+.header-section__projectpage {
+    background-color: #fff;
+}
+.projectpage-section__first{
+   
+}
+
+.projectpage-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+    background-color: grey;
+
+}
+
+.projectpage-info p {
+    font-size: 68px;
+
+}
+
+.projectpage-info h4 {
+    font-size: 15px;
+    width: 550px;
+
+
+}
+
+
+a .facebook__projectpage path,
+a .instagram__projectpage path,
+a .telegram__projectpage path {
+    fill: black;
+}
+
+.instagram__projectpage,
+.telegram__projectpage {
+    fill: black;
+}
+
+.instagram-center__projectpage {
+    fill: black;
+}
+
+.discover-svg__projectpage {
+    fill: black;
+}
+
+.nav-list__projectpage li a {
+    color: black;
+}
+
+.projectpage-section__first {
+    padding: 90px 0;
+}
+
+.header-contact__projectpage a {
+    color: black;
+}

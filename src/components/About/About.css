@@ -1,5 +1,6 @@
 .about-wrapper {
     display: flex;
+    padding-top: 300px;
 }
 
 .visibility {
@@ -41,6 +42,7 @@
 .about-left p {
     font-size: 18px;
     line-height: 2;
+    padding-right: 30px;
 }
 
 
@@ -57,6 +59,7 @@
 
 
 .about-card {
+    min-width: 250px;
     padding: 25px 100px 50px 25px;
     border: 1px solid grey;
     cursor: pointer;

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Projects.css"
 import Button from '../Button/Button'
+import { Link } from 'react-router-dom'
 
 
 export default function Projects() {
@@ -35,7 +36,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project-btn">
-          <Button variant="third">Все проекты</Button>
+          <Link to="/Projectpage"><Button variant="third">Все проекты</Button></Link>
         </div>
 
       </div>

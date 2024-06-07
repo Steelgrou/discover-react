@@ -1,0 +1,41 @@
+import React from 'react'
+import './Entrance.css'
+
+import bgvideo from "/opening.mp4"
+import Button from '../Button/Button'
+
+export default function Entrance() {
+    return (
+        <section id='entrance-section'>
+            <video
+                className="entrance-video"
+                preload="auto"
+                muted
+                autoPlay
+                loop
+                poster="/img/poster.webp"
+                playsInline
+                webkit-playsinline="true"
+            >
+                <source src={bgvideo} type="video/mp4" />
+                Ваш браузер не поддерживает HTML5 видео.
+            </video>
+
+            <div className="entrance-overlay"></div>
+            <div className="container">
+
+                <div className="entrance-section">
+
+                    <h1> DISCOVER INVEST</h1>
+                    <h5>Совершенство во всём</h5>
+                    <div className="entrance-btn">
+                        <Button variant="first" >Проекты</Button>
+                        <Button variant="second">Контакты</Button>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    )
+}

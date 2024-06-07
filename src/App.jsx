@@ -1,20 +1,35 @@
 import './App.css'
-import About from './components/About/About'
-import Advantages from './components/Header/Advantages/Advantages'
-import Header from './components/Header/Header'
-import Projects from './components/Projects/Projects'
-import Footer from './components/Footer/Footer'
+
+
+
+//React-Router-dom
+import { Routes, Route } from 'react-router-dom'
+import Aboutpage from './Pages/Homepage/Aboutpage/Aboutpage'
+import Homepage from './Pages/Homepage/Homepage'
+import Projectpage from './Pages/Homepage/Projectpage/Projectpage'
+
 
 function App() {
-  
+
 
   return (
     <>
-     <Header/>
-     <About/>
-     <Advantages/>
-     <Projects/>
-    <Footer/>
+
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/Aboutpage" element={<Aboutpage />} />
+        <Route path="/Projectpage" element={<Projectpage/>} />
+      </Routes>
+
+     
+   
+
+
+     
+     
+      
+     
+
     </>
   )
 }

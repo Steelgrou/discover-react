@@ -3,7 +3,7 @@ import "./About.css"
 
 export default function About() {
   return (
-    <>
+    <section>
       <div className="about-section">
         <div className="container">
           <div className="about-wrapper">
@@ -58,6 +58,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
