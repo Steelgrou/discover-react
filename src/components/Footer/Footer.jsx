@@ -2,8 +2,12 @@ import React from 'react'
 import "./Footer.css"
 import Button from '../Button/Button'
 import axios from 'axios'
-export default function Footer() {
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+
+export default function Footer() {
+  const notify = () => toast();
   const sendMessage = (event) => {
     event.preventDefault();
     const token = "6807646236:AAGeUZUjG8k_owEhXgSmLi_yZDMzbLXw4cQ";
@@ -12,7 +16,7 @@ export default function Footer() {
     const name = document.getElementById("name").value;
     const number = document.getElementById("number").value;
 
-
+   
 
     const messageContent = `Phone number: ${number}\nName: ${name}`
     axios({
@@ -25,7 +29,7 @@ export default function Footer() {
       }
     }).then((res) => {
       document.getElementById("footerForm").reset();
-      alert("Успешно отправлено")
+      toast("Успешно отправлено")
     }).catch((error) => {
       console.log("Что то пошло не так!");
     })
@@ -100,8 +104,8 @@ export default function Footer() {
                   <input id='name' type="text" placeholder='Как вас зовут?' required />
                 </div>
              
-                <Button variant="footerForm">Обратная связь</Button>
-
+                <Button variant="footerForm" onClick={notify} >Обратная связь</Button>
+                <ToastContainer />
               </form>
 
             </div>

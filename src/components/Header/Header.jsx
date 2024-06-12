@@ -20,12 +20,8 @@ export default function Header() {
     }, []);
 
     return (
-
-
         <header className='header-section'>
             <div className={`nav ${scrolled ? 'scrolled' : ''}`}>
-
-
                 <div className="container">
                     <div className="header-wrapper">
                         <nav>
@@ -42,7 +38,7 @@ export default function Header() {
                             <ul className='nav-list'>
                                 <li className='nav-item' ><Link to="/Aboutpage">О компании</Link></li>
                                 <li className='nav-item' ><Link to="/Projectpage">Проекты</Link></li>
-                                <li className='nav-item' ><Link to="/Careerpage">Карьера</Link></li>
+                                <li className='nav-item' ><Link to="https://hr.di.uz/">Карьера</Link></li>
                                 <li className='nav-item' ><Link to="/Newspage">Новости</Link></li>
                                 <li className='nav-item' ><Link to="/Contactspage">Контакты</Link></li>
                             </ul>
@@ -82,7 +78,7 @@ export default function Header() {
                                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="50" height="50" fill="#FAB448"></rect>
                                         <path d="M17.4514 19.125C16.3264 21.625 17.3264 25.75 20.2014 29.125C23.7014 33.25 28.7014 34.875 31.2014 32.75L33.2014 31.125L30.4514 27.75L28.3264 29.375C26.8264 30.625 24.0764 29.75 22.2014 27.375C20.3264 25 19.8264 22.25 21.3264 21L23.3264 19.375L20.4514 16" fill="white"></path>
-                                        <path d="M17.4514 19.125C16.3264 21.625 17.3264 25.75 20.2014 29.125C23.7014 33.25 28.7014 34.875 31.2014 32.75L33.2014 31.125L30.4514 27.75L28.3264 29.375C26.8264 30.625 24.0764 29.75 22.2014 27.375C20.3264 25 19.8264 22.25 21.3264 21L23.3264 19.375L20.4514 16L17.4514 19.125Z" stroke="white" strokeЦidth="1.2" strokeMiterlimit="10" strokeLinecap="square"></path>
+                                        <path d="M17.4514 19.125C16.3264 21.625 17.3264 25.75 20.2014 29.125C23.7014 33.25 28.7014 34.875 31.2014 32.75L33.2014 31.125L30.4514 27.75L28.3264 29.375C26.8264 30.625 24.0764 29.75 22.2014 27.375C20.3264 25 19.8264 22.25 21.3264 21L23.3264 19.375L20.4514 16L17.4514 19.125Z" stroke="white" strokeWidth="1.2" strokeMiterlimit="10" strokeLinecap="square"></path>
                                     </svg>
                                 </a>
                             </div>

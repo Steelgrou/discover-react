@@ -1,27 +1,30 @@
 .header-section__projectpage {
     background-color: #fff;
 }
-.projectpage-section__first{
-   
+.projectpage-section__top{
+   background-color: #ece4e465;
 }
 
 .projectpage-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 90px;
-    background-color: grey;
+    padding: 90px 0;
+  
 
 }
 
 .projectpage-info p {
     font-size: 68px;
+    font-weight: 700;
 
 }
 
 .projectpage-info h4 {
-    font-size: 15px;
-    width: 550px;
+    font-size: 16px;
+    max-width: 550px;
+    font-weight: 400;
+    color: rgb(58, 55, 55);
 
 
 }

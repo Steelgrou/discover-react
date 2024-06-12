@@ -32,7 +32,7 @@ export default function Projectpage() {
               <ul className='nav-list nav-list__projectpage '>
                 <li className='nav-item' ><Link to="/Aboutpage">О компании</Link></li>
                 <li className='nav-item' ><Link to="/Projectpage">Проекты</Link></li>
-                <li className='nav-item' ><Link to="/Careerpage">Карьера</Link></li>
+                <li className='nav-item' ><Link to="https://hr.di.uz">Карьера</Link></li>
                 <li className='nav-item' ><Link to="/Newspage">Новости</Link></li>
                 <li className='nav-item' ><Link to="/Contactspage">Контакты</Link></li>
               </ul>
@@ -77,6 +77,7 @@ export default function Projectpage() {
               </div>
             </nav>
           </div>
+
           <svg className="line" width="1650" height="1" viewBox="0 0 1650 1" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="1650" height="1" fill="url(#paint0_radial_78_95)"></rect>
             <defs>
@@ -91,15 +92,17 @@ export default function Projectpage() {
 
       </header>
 
-
       <section className='projectpage-section__first'>
-        <div className="container">
-          <div className='project-wrapper'>
+        <div className="projectpage-section__top">
+          <div className="container">
             <div className="projectpage-info">
-
               <p>Проекты</p>
               <h4>Мы не просто создаём проекты, мы создаем новые возможности. Строя объекты государственного масштаба, мы строим будущее.</h4>
             </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className='project-wrapper'>
             <div className="project-cards">
               <div className="project-card">
                 <p>Magic City</p>
@@ -127,7 +130,7 @@ export default function Projectpage() {
 
         </div>
       </section>
-<Footer/>
+      <Footer />
     </>
   )
 }
