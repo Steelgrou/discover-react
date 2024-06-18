@@ -4,9 +4,9 @@ import './App.css'
 
 //React-Router-dom
 import { Routes, Route } from 'react-router-dom'
-import Aboutpage from './Pages/Homepage/Aboutpage/Aboutpage'
+import Aboutpage from './Pages/Aboutpage/Aboutpage'
 import Homepage from './Pages/Homepage/Homepage'
-import Projectpage from './Pages/Homepage/Projectpage/Projectpage'
+import Projectpage from './Pages/Projectpage/Projectpage'
 
 
 function App() {

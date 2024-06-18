@@ -1,8 +1,8 @@
 import './Projectpage.css'
-import Button from '../../../components/Button/Button';
-import Header from '../../../components/Header/Header'
-import Footer from '../../../components/Footer/Footer'
-import Projects from '../../../components/Projects/Projects'
+import Button from '../../components/Button/Button';
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import Projects from '../../components/Projects/Projects'
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'

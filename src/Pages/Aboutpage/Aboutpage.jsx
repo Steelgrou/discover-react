@@ -1,16 +1,16 @@
 import React from 'react'
 import './Aboutpage.css'
 //Components
-import Header from '../../../components/Header/Header'
-import Footer from '../../../components/Footer/Footer'
-import EntranceAboutpage from '../../../components/Entrance/EntranceAboutpage'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import EntranceAboutpage from '../../components/Entrance/EntranceAboutpage'
 //Photos link
 import firstImg from '/aboutpage-first-section.jpg'
 import secondImg from '/aboutpage-second-section.jpg'
 import thridImg from '/aboutpage-thrid-section.jpg'
 import fourthdImg from '/aboutpage-fourth-section.jpg'
 
-import Button from '../../../components/Button/Button'
+import Button from '../../components/Button/Button'
 import { Link } from 'react-router-dom'
 
 export default function Aboutpage() {
