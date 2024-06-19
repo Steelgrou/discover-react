@@ -1,8 +1,11 @@
 import React from 'react'
 import './Entrance.css'
 
+
 import bgvideo from "/opening.mp4"
 import Button from '../Button/Button'
+import { Link } from 'react-router-dom'
+
 
 export default function Entrance() {
     return (
@@ -29,9 +32,8 @@ export default function Entrance() {
                     <h1> DISCOVER INVEST</h1>
                     <h5>Совершенство во всём</h5>
                     <div className="entrance-btn">
-                        <Button variant="first" >Проекты</Button>
-                        <Button variant="second">Контакты</Button>
-
+                        <Link to="/Projectpage"><Button variant="first">Проекты</Button></Link>
+                        <Link to="/Contactpage"><Button variant="second">Контакты</Button></Link>
                     </div>
                 </div>
 

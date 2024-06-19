@@ -40,7 +40,7 @@ export default function Header() {
                                 <li className='nav-item' ><Link to="/Projectpage">Проекты</Link></li>
                                 <li className='nav-item' ><Link to="https://hr.di.uz/">Карьера</Link></li>
                                 <li className='nav-item' ><Link to="/Newspage">Новости</Link></li>
-                                <li className='nav-item' ><Link to="/Contactspage">Контакты</Link></li>
+                                <li className='nav-item' ><Link to="/Contactpage">Контакты</Link></li>
                             </ul>
                             <div className="header-social">
                                 <a href="https://business.facebook.com/latest/home?asset_id=866538573482797&nav_ref=push">
