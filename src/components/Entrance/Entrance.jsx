@@ -26,14 +26,14 @@ export default function Entrance() {
 
             <div className="entrance-overlay"></div>
             <div className="container">
-
+                
                 <div className="entrance-section">
 
                     <h1> DISCOVER INVEST</h1>
                     <h5>Совершенство во всём</h5>
                     <div className="entrance-btn">
                         <Link to="/Projectpage"><Button variant="first">Проекты</Button></Link>
-                        <Link to="/Contactpage"><Button variant="second">Контакты</Button></Link>
+                        <Link to="/Contact"><Button variant="second">Контакты</Button></Link>
                     </div>
                 </div>
 

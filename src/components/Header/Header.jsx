@@ -22,10 +22,23 @@ export default function Header() {
     return (
         <header className='header-section'>
             <div className={`nav ${scrolled ? 'scrolled' : ''}`}>
-                <div className="container">
+                <div className="container fixed">
+                    <div className="header-fixed__button">
+                        <div className="header-first__animation">
+                            <div className="header-second-animation">
+                                <button type='submit'>
+                                    <svg width="70" height="70" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="50" height="50" fill="#FAB448"></rect>
+                                        <path d="M17.4514 19.125C16.3264 21.625 17.3264 25.75 20.2014 29.125C23.7014 33.25 28.7014 34.875 31.2014 32.75L33.2014 31.125L30.4514 27.75L28.3264 29.375C26.8264 30.625 24.0764 29.75 22.2014 27.375C20.3264 25 19.8264 22.25 21.3264 21L23.3264 19.375L20.4514 16" fill="white"></path>
+                                        <path d="M17.4514 19.125C16.3264 21.625 17.3264 25.75 20.2014 29.125C23.7014 33.25 28.7014 34.875 31.2014 32.75L33.2014 31.125L30.4514 27.75L28.3264 29.375C26.8264 30.625 24.0764 29.75 22.2014 27.375C20.3264 25 19.8264 22.25 21.3264 21L23.3264 19.375L20.4514 16L17.4514 19.125Z" stroke="white" strokeWidth="1.2" strokeMiterlimit="10" strokeLinecap="square"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                     <div className="header-wrapper">
                         <nav>
-                            <Link to="/" className="discover">
+                            <Link onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})} to="/" className="discover">
                                 <svg width="158" height="53" viewBox="0 0 158 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clipPath="url(#clip0_78_54)">
                                         <path d="M15.9233 5.32977V0.000732422H40.3742V36.3172H33.263L33.2688 32.9154H37.1407V3.40249H19.1567V5.32977H31.4053V52.4784H0V5.32977H15.9233ZM6.11853 48.8154H27.6611V36.3172H18.6052L6.11853 48.8154ZM15.9233 34.0358V11.4251H19.3831V32.6948H27.6611V8.99276H3.74426V46.2322L15.9233 34.0416V34.0358Z" fill="#FAB448"></path>
@@ -40,7 +53,7 @@ export default function Header() {
                                 <li className='nav-item' ><Link to="/Projectpage">Проекты</Link></li>
                                 <li className='nav-item' ><Link to="https://hr.di.uz/">Карьера</Link></li>
                                 <li className='nav-item' ><Link to="/Newspage">Новости</Link></li>
-                                <li className='nav-item' ><Link to="/Contactpage">Контакты</Link></li>
+                                <li className='nav-item' ><Link to="/Contact">Контакты</Link></li>
                             </ul>
                             <div className="header-social">
                                 <a href="https://business.facebook.com/latest/home?asset_id=866538573482797&nav_ref=push">

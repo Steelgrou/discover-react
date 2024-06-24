@@ -36,7 +36,7 @@ export default function Aboutpage() {
                 <img className='aboutpage-right__img' src={firstImg} alt="" />
               </div>
               <p className='aboutpage-right__text'>Мы не просто создаём проекты, мы создаем новые возможности. Строя объекты государственного масштаба, мы строим будущее. Мы заботимся об окружающей среде: компания берет на себя полную ответственность за экологические аспекты, связанные со строительством и эксплуатацией зданий и инфраструктуры.</p>
-              <Link to="/Projectpage"><Button variant='first'> Проекты</Button></Link>
+              <Link onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})} to="/Projectpage"><Button variant='first'> Проекты</Button></Link>
             </div>
           </div>
 

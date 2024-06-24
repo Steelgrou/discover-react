@@ -1,11 +1,10 @@
 .header-section {
-   position: fixed;
+    position: fixed;
     width: 100%;
-   z-index: 1;
+    z-index: 1;
 }
-.header-wrapper{
-  
-}
+
+.header-wrapper {}
 
 .header-wrapper nav {
     display: flex;
@@ -17,10 +16,10 @@
 nav .nav-list {
     display: flex;
     gap: 60px;
-   
+
 }
 
-.nav-item a{
+.nav-item a {
     color: #fff;
 }
 
@@ -29,8 +28,9 @@ nav .nav-list {
     align-items: center;
     gap: 20px;
 }
-.header-contact a{
-   color: #fff;
+
+.header-contact a {
+    color: #fff;
 }
 
 .nav.scrolled {
@@ -45,17 +45,64 @@ nav .nav-list {
 
 .nav.scrolled a .facebook path,
 .nav.scrolled a .instagram path,
-.nav.scrolled a .telegram path
- { fill: black;}
-
-.nav.scrolled .instagram, .nav.scrolled .telegram{
+.nav.scrolled a .telegram path {
     fill: black;
 }
 
-.nav.scrolled .instagram-center{
+.nav.scrolled .instagram,
+.nav.scrolled .telegram {
     fill: black;
 }
 
-.nav.scrolled .discover-svg{
+.nav.scrolled .instagram-center {
     fill: black;
+}
+
+.nav.scrolled .discover-svg {
+    fill: black;
+}
+
+.fixed {
+    position: relative;
+}
+
+.header-fixed__button {
+    position: absolute;
+    top: 700px;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.header-first__animation {
+    border: 1px solid orange;
+   
+}
+
+.header-second__animation {}
+
+.header-fixed__button button {
+    border: 0px solid rgb(219, 133, 42);
+    height: 0;
+    animation: infinitePulse 4s infinite;
+
+
+}
+
+@keyframes infinitePulse {
+    0% {
+        margin:  1px;
+    }
+
+    25% {
+        margin:  3px;
+    }
+
+    50% {
+        margin:  2px;
+    }
+
+    100% {
+        margin:  0px;
+    }
 }

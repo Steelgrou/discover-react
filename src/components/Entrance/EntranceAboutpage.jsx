@@ -2,11 +2,16 @@ import React from 'react'
 import './EntranceAboutpage.css'
 
 import Button from '../Button/Button'
+import { useLocation } from 'react-router-dom'
 
 export default function EntranceAboutpage() {
+    const location = useLocation()?.pathname;
+    console.log(location)
     return (
-        <section>
-
+        <>
+        {location?.includes("/Aboutpage")
+            ?
+            <section>
             <div className="entrance-section__aboutpage">
                 <div className="entrance-overlay__aboutpage"></div>
                 <div className="container">
@@ -28,5 +33,10 @@ export default function EntranceAboutpage() {
                 </div>
             </div>
         </section>
+
+        :
+        "kontakt page chiqadi"
+    }
+        </>
     )
 }

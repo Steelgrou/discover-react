@@ -31,7 +31,7 @@ export default function Projectpage() {
 
               <ul className='nav-list nav-list__projectpage '>
                 <li className='nav-item' ><Link to="/Aboutpage">О компании</Link></li>
-                <li className='nav-item' ><Link to="/Projectpage">Проекты</Link></li>
+                <li className='nav-item' ><Link onClick={() => window.scrollTo({ top: 0 })} to="/Projectpage">Проекты</Link></li>
                 <li className='nav-item' ><Link to="https://hr.di.uz">Карьера</Link></li>
                 <li className='nav-item' ><Link to="/Newspage">Новости</Link></li>
                 <li className='nav-item' ><Link to="/Contactpage">Контакты</Link></li>
