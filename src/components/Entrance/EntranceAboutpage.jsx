@@ -35,7 +35,19 @@ export default function EntranceAboutpage() {
         </section>
 
         :
-        "kontakt page chiqadi"
+        <section>
+        <div className="entrance-section__aboutpage">
+            <div className="entrance-overlay__aboutpage"></div>
+            <div className="container">
+                <div className="entrance-wrapper__aboutpage">
+                    <h1>КОНТАКТЫ </h1>
+                    <h5>Оставьте свои контакты, заполнив текущую форму, и мы свяжемся с вами в ближайшее время.
+
+</h5>
+                 </div>
+            </div>
+        </div>
+    </section>
     }
         </>
     )
