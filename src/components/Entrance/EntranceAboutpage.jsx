@@ -6,8 +6,8 @@ import { useLocation } from 'react-router-dom'
 
 export default function EntranceAboutpage() {
     const location = useLocation()?.pathname;
-    console.log(location)
-    return (
+    
+     return (
         <>
         {location?.includes("/Aboutpage")
             ?
@@ -32,8 +32,7 @@ export default function EntranceAboutpage() {
                     </div>
                 </div>
             </div>
-        </section>
-
+            </section>
         :
         <section>
         <div className="entrance-section__aboutpage">
