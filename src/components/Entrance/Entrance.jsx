@@ -29,7 +29,7 @@ export default function Entrance() {
                 
                 <div className="entrance-section">
 
-                    <h1> DISCOVER INVEST</h1>
+                    <h1> SUPER SANTEXNIK </h1>
                     <h5>Совершенство во всём</h5>
                     <div className="entrance-btn">
                         <Link to="/Projectpage"><Button variant="first">Проекты</Button></Link>
