@@ -1,5 +1,22 @@
+import React  from 'react';
+// Import Swiper React components
+
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+
+
+
+
+
 import './App.css'
 import { useTranslation } from 'react-i18next'
+
 
 
 //React-Router-dom
@@ -26,6 +43,9 @@ function App() {
         <Route path="/Contact" element={<Contactpage />} />
       </Routes>
       <ToastContainer />
+
+
+    
     </>
   )
 }

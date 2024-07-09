@@ -1,0 +1,21 @@
+.team-swiper__img  {
+    width: 100%;
+}
+
+.team-swiper__name {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.team-swiper__job {
+   
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.team-swiper:hover {
+    color: orange;
+    cursor: pointer;
+}

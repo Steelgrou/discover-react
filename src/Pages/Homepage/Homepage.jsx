@@ -5,6 +5,7 @@ import Advantages from '../../components/Advantages/Advantages'
 import Projects from '../../components/Projects/Projects'
 import Footer from '../../components/Footer/Footer'
 import Entrance from '../../components/Entrance/Entrance'
+import Team from '../../components/Team/Team'
 
 
 
@@ -15,6 +16,7 @@ export default function Homepage() {
       <Entrance/>
       <About />
       <Advantages />
+      <Team/>
       <Projects />
       <Footer />
     </>
