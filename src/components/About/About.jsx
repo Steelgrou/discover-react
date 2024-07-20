@@ -1,21 +1,23 @@
-import React from 'react'
+import React from 'react';
 import "./About.css"
 
+
 export default function About() {
+
   return (
     <section>
       <div className="about-section">
         <div className="container">
           <div className="about-wrapper">
             <div className="about-left">
-              <span></span>
-              <h4>О компании</h4>
-              <h2>Super Santexnik</h2>
-              <p>Мы не просто создаём проекты, мы создаем новые возможности. Строя объекты государственного масштаба, мы строим будущее.
+              <span ></span>
+              <h4 data-aos="fade-right">О компании</h4>
+              <h2 data-aos="fade-right">DISCOVER INVEST</h2>
+              <p data-aos="fade-up">Мы не просто создаём проекты, мы создаем новые возможности. Строя объекты государственного масштаба, мы строим будущее.
                 Мы заботимся об окружающей среде: компания берет на себя полную ответственность за экологические аспекты, связанные со строительством и эксплуатацией зданий и инфраструктуры
               </p>
             </div>
-            <div className="about-right">
+            <div className="about-right" data-aos="fade-down-left">
               <div className="about-cards">
                 <div className="about-card visibility">
                   <h2></h2>
@@ -43,7 +45,7 @@ export default function About() {
                 </div>
                 <a href='/aboutpage' className="about-card__bg">
                   <span>О компании</span>
-                  
+
                 </a>
                 <div className="about-card">
                   <h2>9+</h2>

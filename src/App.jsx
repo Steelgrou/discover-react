@@ -1,4 +1,6 @@
-import React  from 'react';
+import React, {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // Import Swiper React components
 
 
@@ -33,6 +35,11 @@ function App() {
     const selectedLaungage = event.target.value;
     i18n.changeLanguage(selectedLaungage);
   }
+  useEffect(() => {
+    AOS.init({
+      duration: 500, // Длительность анимации в миллисекундах
+    });
+  }, []);
 
   return (
     <>

@@ -7,6 +7,8 @@
 .project-wrapper h2 {
     font-size: 48px;
     padding-left: 10px;
+    padding-top: 120px;
+
 
 }
 
@@ -14,7 +16,7 @@
     padding-left: 50px;
     font-size: 58px;
     font-weight: 500;
-
+    padding-bottom: 120px;
 }
 
 
@@ -26,7 +28,7 @@
     width: 2.25rem;
     height: .25rem;
     background-color: #FAB448;
-    top: 5%;
+    top: 11%;
 
     transform: translateX(-100%);
 }
@@ -35,23 +37,22 @@
 .project-cards {
     display: flex;
     flex-wrap: wrap;
-    gap:20px;
+    gap: 20px;
     padding-bottom: 100px;
-    
+
 }
-.project-card p{
+
+.project-card p {
     color: #fff;
     font-size: 48px;
     padding-left: 50px;
     padding-bottom: 30px;
 }
+
 .project-card {
     display: flex;
-    
     align-items: flex-end;
-    
     width: 49%;
-
     background-image: url(https://di.uz/image/projects/RT7817HgTs.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -59,11 +60,12 @@
     height: 400px;
 }
 
-.project-card h5{
+.project-card h5 {
     /* display: none; */
 
 }
-.project-card h5:hover{
+
+.project-card h5:hover {
     display: block;
     color: #fff;
 

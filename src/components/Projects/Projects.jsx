@@ -19,19 +19,19 @@ export default function Projects() {
               <p>Magic City</p>
             </div>
             <div className="project-card">
-              <p>Magic City</p>
+              <p>Boulevard</p>
             </div>
             <div className="project-card">
-              <p>Magic City</p>
+              <p>Gardens Residence</p>
             </div>
             <div className="project-card">
-              <p>Magic City</p>
+              <p>Fonon</p>
             </div>
             <div className="project-card">
-              <p>Magic City</p>
+              <p>Invento</p>
             </div>
             <div className="project-card">
-              <p>Magic City</p>
+              <p>Президентская школа</p>
             </div>
           </div>
         </div>

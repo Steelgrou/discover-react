@@ -1,4 +1,4 @@
-.team-swiper__img  {
+.team-swiper__img {
     width: 100%;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .team-swiper__job {
-   
+
     font-weight: 400;
     font-size: 16px;
     padding-top: 5px;
@@ -18,4 +18,38 @@
 .team-swiper:hover {
     color: orange;
     cursor: pointer;
+}
+
+
+
+.team-wrapper {
+    position: relative;
+    padding: 120px 0;
+}
+
+.team-wrapper span:before {
+    position: absolute;
+    content: '';
+    width: 2.25rem;
+    height: .25rem;
+    background-color: #FAB448;
+    top: 40%;
+    left: -10px;
+    transform: translateX(-100%);
+}
+
+.team-wrapper h4 {
+    padding-left: 10px;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.team-wrapper h2 {
+
+    font-size: 58px;
+
+}
+
+.team-title {
+    padding-left: 50px;
 }

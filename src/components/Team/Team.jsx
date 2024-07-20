@@ -5,9 +5,6 @@ import { Autoplay, FreeMode, Navigation } from 'swiper/modules';
 import './Team.css'
 
 
-
-
-
 import xusanovA from '/xusanovA.webp'
 import boltaevO from '/boltaevO.webp'
 import norbekovSh from '/norbekovSh.webp'
@@ -18,7 +15,12 @@ export default function Team() {
   return (
     <div>
       <div className="container">
-
+        <div className="team-wrapper">
+          <span ></span>
+          <h2 data-aos="fade-right">Наша</h2>
+          <h2 className='team-title' data-aos="fade-right">Команда</h2>
+          
+        </div>
 
         <Swiper
           slidesPerView={4}
@@ -28,7 +30,7 @@ export default function Team() {
           pagination={{
             clickable: true,
           }}
-          loop={true} 
+          loop={true}
           navigation={true}
           autoplay={{
             delay: 2500,

@@ -1,12 +1,14 @@
-import React from 'react'
 import './Advantages.css'
+import React, {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Advantages() {
     return (
         <div>
             <div className="advantages-section">
                 <div className="container">
-                    <div className="advantages-wrapper">
+                    <div className="advantages-wrapper" data-aos="fade-right">
                         <span></span>
                         <h2>Наши</h2>
                         <h4>премущества</h4>
