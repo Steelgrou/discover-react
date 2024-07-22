@@ -25,7 +25,7 @@ export default function Header() {
                 <div className="container fixed">
                     <div className="header-fixed__button">
                         <div className="header-first__animation">
-                            <div className="header-second-animation">
+                            <div className="header-second__animation">
                                 <button type='submit'>
                                     <svg width="70" height="70" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="50" height="50" fill="#FAB448"></rect>

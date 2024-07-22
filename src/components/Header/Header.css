@@ -1,10 +1,8 @@
 .header-section {
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 1000;
 }
-
-.header-wrapper {}
 
 .header-wrapper nav {
     display: flex;
@@ -16,7 +14,6 @@
 nav .nav-list {
     display: flex;
     gap: 60px;
-
 }
 
 .nav-item a {
@@ -85,7 +82,6 @@ nav .nav-list {
     border: 0px solid rgb(219, 133, 42);
     height: 0;
     animation: infinitePulse 4s infinite;
-
 
 }
 

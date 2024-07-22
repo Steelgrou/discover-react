@@ -10,12 +10,13 @@ export default function About() {
         <div className="container">
           <div className="about-wrapper">
             <div className="about-left">
-              <span ></span>
-              <h4 data-aos="fade-right">О компании</h4>
-              <h2 data-aos="fade-right">DISCOVER INVEST</h2>
-              <p data-aos="fade-up">Мы не просто создаём проекты, мы создаем новые возможности. Строя объекты государственного масштаба, мы строим будущее.
-                Мы заботимся об окружающей среде: компания берет на себя полную ответственность за экологические аспекты, связанные со строительством и эксплуатацией зданий и инфраструктуры
-              </p>
+              <div className="about-left__info">
+                <h4 className='about-left__text' data-aos="fade-right">О компании</h4>
+                <h2 data-aos="fade-right">DISCOVER INVEST</h2>
+                <p data-aos="fade-up">Мы не просто создаём проекты, мы создаем новые возможности. Строя объекты государственного масштаба, мы строим будущее.
+                  Мы заботимся об окружающей среде: компания берет на себя полную ответственность за экологические аспекты, связанные со строительством и эксплуатацией зданий и инфраструктуры
+                </p>
+              </div>
             </div>
             <div className="about-right" data-aos="fade-down-left">
               <div className="about-cards">

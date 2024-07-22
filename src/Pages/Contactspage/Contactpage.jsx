@@ -17,6 +17,7 @@ export default function Contactpage() {
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("name").value;
     const number = document.getElementById("number").value;
+    
 
 
 
