@@ -3,13 +3,10 @@
     padding-top: 50px;
 }
 
-
 .project-wrapper h2 {
     font-size: 48px;
     padding-left: 10px;
     padding-top: 120px;
-
-
 }
 
 .project-wrapper h4 {
@@ -19,20 +16,15 @@
     padding-bottom: 120px;
 }
 
-
-
-
-.project-wrapper span:before {
+.project-wrapper .project-wrapper__span:before {
     position: absolute;
     content: '';
     width: 2.25rem;
     height: .25rem;
     background-color: #FAB448;
     top: 11%;
-
     transform: translateX(-100%);
 }
-
 
 .project-cards {
     display: flex;
@@ -42,35 +34,69 @@
 
 }
 
-.project-card p {
+.project-card .project-card__title {
     color: #fff;
     font-size: 48px;
     padding-left: 50px;
     padding-bottom: 30px;
 }
 
-.project-card {
-    display: flex;
-    align-items: flex-end;
-    width: 49%;
-    background-image: url(https://di.uz/image/projects/RT7817HgTs.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.project-card h5 {
-    /* display: none; */
-
-}
-
-.project-card h5:hover {
-    display: block;
-    color: #fff;
-
-}
-
 .project-btn {
     text-align: center;
 }
+
+
+
+
+/* CARD */
+
+.project-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width:49%;
+    gap: 20px;
+}
+
+.project-card:hover .project-card__img {
+    filter: blur(5px);
+}
+
+.project-card__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-card__title {
+    bottom: 0;
+    position: absolute;
+}
+
+.project-card__subtitle {
+    bottom: 0;
+    position: absolute;
+    display: none;
+    color: #fff;
+    
+}
+.project-card:hover .project-card__subtitle {
+    top: 15%;
+    left: 15px;
+    max-width: 450px;
+    position: absolute;
+    display: block;
+    color: #fff;
+   
+}
+
+
+.project-card:hover .project-card__title {
+    top: 0;
+    position: absolute;
+}
+
