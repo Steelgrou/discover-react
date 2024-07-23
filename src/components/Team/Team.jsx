@@ -19,7 +19,7 @@ export default function Team() {
           <span ></span>
           <h2 data-aos="fade-right">Наша</h2>
           <h2 className='team-title' data-aos="fade-right">Команда</h2>
-          
+
         </div>
 
         <Swiper

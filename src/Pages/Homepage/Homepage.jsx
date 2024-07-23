@@ -6,6 +6,7 @@ import Projects from '../../components/Projects/Projects'
 import Footer from '../../components/Footer/Footer'
 import Entrance from '../../components/Entrance/Entrance'
 import Team from '../../components/Team/Team'
+import News from '../../components/News/News'
 
 
 
@@ -18,6 +19,7 @@ export default function Homepage() {
       <Advantages />
       <Team/>
       <Projects />
+      <News/>
       <Footer />
     </>
   )
