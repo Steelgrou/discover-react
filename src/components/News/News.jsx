@@ -22,63 +22,95 @@ export default function News() {
           <div className="news-right"></div>
         </div>
         <div className="news-swiper">
-        <Swiper
-          slidesPerView={4}
-          spaceBetween={20}
-          freeMode={true}
+          <Swiper
+            slidesPerView={3.5}
+            spaceBetween={30}
+            freeMode={true}
 
-          pagination={{
-            clickable: true,
-          }}
-          loop={true}
-          navigation={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: true,
+            pagination={{
+              clickable: true,
+            }}
+            loop={true}
+            navigation={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: true,
 
-          }}
+            }}
 
-          modules={[FreeMode, Autoplay, Navigation]}
-          className="mySwiper"
+            modules={[FreeMode, Autoplay, Navigation]}
+            className="mySwiper"
 
-        >
-          <SwiperSlide>
-            <div className="team-swiper">
-              <img className='team-swiper__img' src={newsFirst} alt="" />
-              <h3 className='team-swiper__name'>Xusanov Akromjon Turaxon o'g'li</h3>
-            </div>
-            <h5 className='team-swiper__job'>Project Manager</h5>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-swiper">
-              <img className='team-swiper__img' src={newsSecond} alt="" />
-              <h3 className='team-swiper__name'>Norbekov Shavkat Bo'riboy o'g'li</h3>
-            </div>
-            <h5 className='team-swiper__job'>Project Manager</h5>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-swiper">
-              <img className='team-swiper__img' src={newsThird} alt="" />
-              <h3 className='team-swiper__name'>Artiqbaev Saxobiddin Doniyor o'g'li</h3>
-            </div>
-            <h5 className='team-swiper__job'>Project Manager</h5>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-swiper">
-              <img className='team-swiper__img' src={newsFourth} alt="" />
-              <h3 className='team-swiper__name'>Kuziev Jakhongir Bakhodirovich</h3>
-            </div>
-            <h5 className='team-swiper__job'>Construction site supervisor</h5>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="team-swiper">
-              <img className='team-swiper__img' alt="" />
-              <h3 className='team-swiper__name'>Boltaev Obidjon Uchqin o'g'li</h3>
-            </div>
-            <h5 className='team-swiper__job'>Project Manager</h5>
-          </SwiperSlide>
+          >
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsFirst} alt="" />
 
-        </Swiper>
+                <div className="news-swiper__before">
+                  <p className='news-swiper__date'>2022-12-19</p>
+                </div>
+                <h3 className='news-swiper__text'>Компания Discover Invest поздравляет всех с наступающим 2023 годом!</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsSecond} alt="" />
+                <p className='news-swiper__date'>2023-01-27</p>
+                <h3 className='news-swiper__text'>ДЕНЬ ПРИНЯТИЯ КОНСТИТУЦИИ РЕСПУБЛИКИ УЗБЕКИСТАН</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsThird} alt="" />
+                <p className='news-swiper__date'>2022-12-31</p>
+                <h3 className='news-swiper__text'>Мы продолжаем знакомить Вас с многофункциональными объектами Discover Invest.</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsFourth} alt="" />
+                <p className='news-swiper__date'>2022-10-02</p>
+                <h3 className='news-swiper__text'>Кто такой менеджер строительного проекта?</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsFirst} alt="" />
+                <p className='news-swiper__date'>2022-12-19</p>
+                <h3 className='news-swiper__text'>Компания Discover Invest поздравляет всех с наступающим 2023 годом!</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsSecond} alt="" />
+                <p className='news-swiper__date'>2023-01-27</p>
+                <h3 className='news-swiper__text'>ДЕНЬ ПРИНЯТИЯ КОНСТИТУЦИИ РЕСПУБЛИКИ УЗБЕКИСТАН</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsThird} alt="" />
+                <p className='news-swiper__date'>2022-12-31</p>
+                <h3 className='news-swiper__text'>Мы продолжаем знакомить Вас с многофункциональными объектами Discover Invest.</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="news-swiper">
+                <img className='news-swiper__img' src={newsFourth} alt="" />
+                <p className='news-swiper__date'>2022-10-02</p>
+                <h3 className='news-swiper__text'>Кто такой менеджер строительного проекта?</h3>
+                <h5 className='news-swiper__link'>Подробнее</h5>
+              </div>
+            </SwiperSlide>
+
+          </Swiper>
         </div>
       </div>
     </section>
