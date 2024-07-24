@@ -33,11 +33,11 @@ export default function News() {
             }}
             loop={true}
             navigation={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: true,
+            // autoplay={{
+            //   delay: 2500,
+            //   disableOnInteraction: true,
 
-            }}
+            // }}
 
             modules={[FreeMode, Autoplay, Navigation]}
             className="mySwiper"
@@ -51,7 +51,7 @@ export default function News() {
                   <p className='news-swiper__date'>2022-12-19</p>
                 </div>
                 <h3 className='news-swiper__text'>Компания Discover Invest поздравляет всех с наступающим 2023 годом!</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a href='https://di.uz/blog-single/16' className='news-swiper__link'>Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
