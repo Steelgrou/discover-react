@@ -51,8 +51,8 @@ export default function News() {
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-19</p>
                 </div>
-                <h3 className='news-swiper__text'>Компания Discover Invest поздравляет всех с наступающим 2023 годом!</h3>
-                <a href='https://di.uz/blog-single/16' className='news-swiper__link'>Подробнее</a>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/15'>Компания Discover Invest поздравляет всех с наступающим 2023 годом!</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/15' >Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -63,8 +63,8 @@ export default function News() {
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2023-01-27</p>
                 </div>
-                <h3 className='news-swiper__text'>ДЕНЬ ПРИНЯТИЯ КОНСТИТУЦИИ РЕСПУБЛИКИ УЗБЕКИСТАН</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/5'>ДЕНЬ ПРИНЯТИЯ КОНСТИТУЦИИ РЕСПУБЛИКИ УЗБЕКИСТАН</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/5'>Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -75,8 +75,8 @@ export default function News() {
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-31</p>
                 </div>
-                <h3 className='news-swiper__text'>Мы продолжаем знакомить Вас с многофункциональными объектами Discover Invest.</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/6'>Мы продолжаем знакомить Вас с многофункциональными объектами Discover Invest.</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/6'>Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -87,56 +87,56 @@ export default function News() {
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-10-02</p>
                 </div>
-                <h3 className='news-swiper__text'>Кто такой менеджер строительного проекта?</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/16'>Кто такой менеджер строительного проекта?</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/16'>Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="news-swiper news-swiper__fifth">
+              <div className="news-swiper news-swiper__first">
                 <img className='news-swiper__img' src={newsFirst} alt="" />
                 <div className="news-swiper__blur"></div>
                 <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-19</p>
                 </div>
-                <h3 className='news-swiper__text'>Компания Discover Invest поздравляет всех с наступающим 2023 годом!</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/15'>Компания Discover Invest поздравляет всех с наступающим 2023 годом!</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/15' >Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="news-swiper news-swiper__sixth">
+              <div className="news-swiper news-swiper__second">
                 <img className='news-swiper__img' src={newsSecond} alt="" />
                 <div className="news-swiper__blur"></div>
                 <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2023-01-27</p>
                 </div>
-                <h3 className='news-swiper__text'>ДЕНЬ ПРИНЯТИЯ КОНСТИТУЦИИ РЕСПУБЛИКИ УЗБЕКИСТАН</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/5'>ДЕНЬ ПРИНЯТИЯ КОНСТИТУЦИИ РЕСПУБЛИКИ УЗБЕКИСТАН</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/5'>Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="news-swiper news-swiper__seventh">
+              <div className="news-swiper news-swiper__third">
                 <img className='news-swiper__img' src={newsThird} alt="" />
                 <div className="news-swiper__blur"></div>
                 <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-31</p>
                 </div>
-                <h3 className='news-swiper__text'>Мы продолжаем знакомить Вас с многофункциональными объектами Discover Invest.</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/6'>Мы продолжаем знакомить Вас с многофункциональными объектами Discover Invest.</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/6'>Подробнее</a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="news-swiper news-swiper__eighth">
+              <div className="news-swiper news-swiper__fourth">
                 <img className='news-swiper__img' src={newsFourth} alt="" />
                 <div className="news-swiper__blur"></div>
                 <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-10-02</p>
                 </div>
-                <h3 className='news-swiper__text'>Кто такой менеджер строительного проекта?</h3>
-                <h5 className='news-swiper__link'>Подробнее</h5>
+                <a className='news-swiper__text' href='https://di.uz/blog-single/16'>Кто такой менеджер строительного проекта?</a>
+                <a className='news-swiper__link' href='https://di.uz/blog-single/16'>Подробнее</a>
               </div>
             </SwiperSlide>
           </Swiper>
