@@ -47,6 +47,7 @@ export default function News() {
               <div className="news-swiper news-swiper__first">
                 <img className='news-swiper__img' src={newsFirst} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-19</p>
                 </div>
@@ -58,6 +59,7 @@ export default function News() {
               <div className="news-swiper news-swiper__second">
                 <img className='news-swiper__img' src={newsSecond} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2023-01-27</p>
                 </div>
@@ -69,6 +71,7 @@ export default function News() {
               <div className="news-swiper news-swiper__third">
                 <img className='news-swiper__img' src={newsThird} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-31</p>
                 </div>
@@ -80,6 +83,7 @@ export default function News() {
               <div className="news-swiper news-swiper__fourth">
                 <img className='news-swiper__img' src={newsFourth} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-10-02</p>
                 </div>
@@ -91,6 +95,7 @@ export default function News() {
               <div className="news-swiper news-swiper__fifth">
                 <img className='news-swiper__img' src={newsFirst} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-19</p>
                 </div>
@@ -102,6 +107,7 @@ export default function News() {
               <div className="news-swiper news-swiper__sixth">
                 <img className='news-swiper__img' src={newsSecond} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2023-01-27</p>
                 </div>
@@ -113,6 +119,7 @@ export default function News() {
               <div className="news-swiper news-swiper__seventh">
                 <img className='news-swiper__img' src={newsThird} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-12-31</p>
                 </div>
@@ -124,12 +131,12 @@ export default function News() {
               <div className="news-swiper news-swiper__eighth">
                 <img className='news-swiper__img' src={newsFourth} alt="" />
                 <div className="news-swiper__blur"></div>
+                <div className="news-swiper__bottom-blur"></div>
                 <div className="news-swiper__before">
                   <p className='news-swiper__date'>2022-10-02</p>
                 </div>
                 <h3 className='news-swiper__text'>Кто такой менеджер строительного проекта?</h3>
                 <h5 className='news-swiper__link'>Подробнее</h5>
-                
               </div>
             </SwiperSlide>
           </Swiper>
