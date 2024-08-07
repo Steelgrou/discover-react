@@ -28,6 +28,7 @@ import Homepage from './Pages/Homepage/Homepage'
 import Projectpage from './Pages/Projectpage/Projectpage'
 import Contactpage from './Pages/Contactspage/Contactpage'
 import { ToastContainer } from 'react-toastify'
+import Newspage from './Pages/Newspage/Newspage';
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -47,6 +48,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/Aboutpage" element={<Aboutpage />} />
         <Route path="/Projectpage" element={<Projectpage />} />
+        <Route path="/Newspage" element={<Newspage />} />
         <Route path="/Contact" element={<Contactpage />} />
       </Routes>
       <ToastContainer />

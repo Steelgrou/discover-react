@@ -49,11 +49,11 @@ export default function Header() {
                             </Link>
 
                             <ul className='nav-list'>
-                                <li className='nav-item' ><Link to="/Aboutpage">О компании</Link></li>
-                                <li className='nav-item' ><Link to="/Projectpage">Проекты</Link></li>
-                                <li className='nav-item' ><Link to="https://hr.di.uz/">Карьера</Link></li>
-                                <li className='nav-item' ><Link to="/Newspage">Новости</Link></li>
-                                <li className='nav-item' ><Link to="/Contact">Контакты</Link></li>
+                                <li className='nav-item nav-item__first' ><Link  to="/Aboutpage">О компании</Link></li>
+                                <li className='nav-item nav-item__second' ><Link to="/Projectpage">Проекты</Link></li>
+                                <li className='nav-item nav-item__third' ><Link to="https://hr.di.uz/">Карьера</Link></li>
+                                <li className='nav-item nav-item__fourth' ><Link to="/Newspage">Новости</Link></li>
+                                <li className='nav-item nav-item__fifth' ><Link to="/Contact">Контакты</Link></li>
                             </ul>
                             <div className="header-social">
                                 <a href="https://business.facebook.com/latest/home?asset_id=866538573482797&nav_ref=push">

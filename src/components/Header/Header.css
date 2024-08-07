@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px 0px;
+    padding: 20px 0 0;
 }
 
 nav .nav-list {
@@ -39,7 +39,6 @@ nav .nav-list {
     color: rgb(15, 15, 15);
 }
 
-
 .nav.scrolled a .facebook path,
 .nav.scrolled a .instagram path,
 .nav.scrolled a .telegram path {
@@ -68,37 +67,56 @@ nav .nav-list {
     top: 700px;
     right: 0;
     cursor: pointer;
-
 }
 
 .header-first__animation {
     border: 1px solid orange;
-   
 }
 
 .header-second__animation {}
 
 .header-fixed__button button {
-    border: 0px solid rgb(219, 133, 42);
+    border: 0 solid rgb(219, 133, 42);
     height: 0;
     animation: infinitePulse 4s infinite;
-
 }
 
 @keyframes infinitePulse {
     0% {
-        margin:  1px;
+        margin: 1px;
     }
 
     25% {
-        margin:  3px;
+        margin: 3px;
     }
 
     50% {
-        margin:  2px;
+        margin: 2px;
     }
 
     100% {
-        margin:  0px;
+        margin: 0;
     }
 }
+
+.nav-item__first {
+    
+}
+
+/* .nav-item__first::before,
+.nav-item__second::before,
+.nav-item__third::before,
+.nav-item__fourth::before,
+.nav-item__fifth::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.3s;
+  
+} */
+
